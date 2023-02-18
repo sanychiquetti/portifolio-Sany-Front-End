@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+:root{
+    --font-geral: 'Nanum Myeongjo', serif;
+    --font-caveat: 'Caveat', cursive;
+    --font-sacramento: 'Sacramento';
+}
+/*cores extraidas do site: http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF */
+:root{
+/* CORES PRIMÁRIAS */
+    --color-branco: #fff;
+    --color-rose-principal-0: #AA3939;
+    --color-rose-claro: #FFAAAA; 
+    --color-rose-medio: #D46A6A; 
+    --color-rose-medio2: #801515; 
+    --color-rose-forte: #550000;
+    --color-cinza-medio:#202020e1;
+    --color-cinza-font: #909090;
+
+/*CORES RBGA*/
+    --color-rbga-0: rgba(170, 57, 57,1) ;
+    --color-rbga-1: rgba(255,170,170,1) ;
+    --color-rbga-2: rgba(212,106,106,1);
+    --color-rbga-3: rgba(128, 21, 21,1) ;
+    --color-rbga-4: rgba( 85,  0,  0,1) ;
+}

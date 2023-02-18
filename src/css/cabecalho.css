@@ -1,0 +1,114 @@
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    margin: auto;
+    padding: 20px 15px;
+}
+
+.cabecalho a:hover .logo{
+    color: var(--color-rose-medio);
+    border: 2px solid var(--color-rose-medio);
+}
+
+.cabecalho-topo{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-topo .logo{
+    font-family: var(--font-radley);
+    font-size: 31px;
+    text-decoration:underline;
+    border: 2px solid var(--color-branco);
+    border-radius: 50%;
+    width: 95px;
+    height: 70px;
+    text-align: center;
+    line-height: 65px;
+    transition: 0.2s;
+}
+
+.cabecalho nav ul{
+    display: flex;
+}
+
+.cabecalho nav li a{
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-radius: 30px;
+    transition: 0.2s ease-in-out;
+    letter-spacing: 2px;
+    user-select: none;
+}
+
+.cabecalho nav li a:hover{
+    text-decoration: underline;
+    background-color: var(--color-rose-medio);
+    font-style: italic;
+}
+.cabecalho-lista{
+    flex-direction: row;
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 0;
+    min-height: 86vh;
+} 
+
+.cabecalho .descricao {
+    letter-spacing: 1px;
+}
+.cabecalho .descricao .cabecalho .fotoPerfil{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15%;
+}
+
+.cabecalho .descricao p{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.cabecalho .descricao h1, h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+} 
+
+.cabecalho .cabecalhoFotoPerfil .fotoPerfil{
+    max-width: 450px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.cabecalho .cabecalhoFotoPerfil .fotoPerfil img{
+    width: 98%;
+    border-radius: 50%;
+    border: 5px solid transparent;
+}
+
+.redes-sociais a{
+    display: inline-block;
+    color: var(--color-branco);
+    width: 40px;
+    height: 40px;
+    font-size: 1.8rem;
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: all 3s ease;
+}
+.redes-sociais a i{
+    line-height: 40px;
+}
+
+.redes-sociais a:hover{
+    color: var(--color-rose-medio);
+}

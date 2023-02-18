@@ -1,0 +1,21 @@
+
+.container{
+    font-family: var(--font-geral);
+    font-weight: 700;
+    background-color: var(--color-cinza-medio);
+    color: var(--color-branco);
+}
+
+strong{
+    font-family: var(--font-sacramento);
+    font-size: 61px;
+    color: var(--color-rose-medio);
+}
+
+.cabecalhoFotoPerfil .sombraFora{
+    box-shadow: 3px 3px #ffaaaa8f, -3px -3px 3px #550000a6;
+}
+
+.cabecalhoFotoPerfil .sombraDentro{
+    box-shadow: inset 3px 3px 3px #ffaaaa8f, inset -3px -3px 3px #550000a6;
+} 
