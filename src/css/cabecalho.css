@@ -16,6 +16,7 @@
     padding: 10px;
     align-items: center;
     justify-content: space-between;
+    transform: translate(-50% -50%);
 }
 
 .cabecalho-topo .logo{
@@ -28,7 +29,20 @@
     height: 70px;
     text-align: center;
     line-height: 65px;
+    animation: animate 1.5s linear infinite;
     transition: 0.2s;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 
 .cabecalho nav ul{
