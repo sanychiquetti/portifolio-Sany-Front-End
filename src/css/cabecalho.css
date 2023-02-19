@@ -61,11 +61,13 @@
     flex-direction: row;
     align-items: center;
     padding: 10px 0;
-    min-height: 86vh;
+    min-height: 75vh;
 } 
 
 .cabecalho .descricao {
     letter-spacing: 1px;
+    align-self:center;
+    
 }
 .cabecalho .descricao .cabecalho .fotoPerfil{
     flex: 0 0 50%;
@@ -75,7 +77,7 @@
 
 .cabecalho .descricao p{
     font-size: 30px;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 .cabecalho .descricao h1, h2{
@@ -84,7 +86,7 @@
 } 
 
 .cabecalho .cabecalhoFotoPerfil .fotoPerfil{
-    max-width: 450px;
+    max-width: 400px;
     margin: auto;
     border-radius: 50%;
 }
@@ -92,7 +94,12 @@
 .cabecalho .cabecalhoFotoPerfil .fotoPerfil img{
     width: 98%;
     border-radius: 50%;
-    border: 5px solid transparent;
+    border: 5px solid transparent;  
+}
+
+.cabecalhoFotoPerfil .fotoPerfil img:hover{
+    transform: rotatey(180deg);
+    transition-duration: 3s;
 }
 
 .redes-sociais a{
@@ -102,8 +109,9 @@
     height: 40px;
     font-size: 1.8rem;
     margin: 0 4px;
+    padding-top: 15px;
     border-radius: 50%;
-    transition: all 3s ease;
+    transition: all 1.5s ease;
 }
 .redes-sociais a i{
     line-height: 40px;
